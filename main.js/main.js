@@ -8,7 +8,10 @@ function TocaSomPom () {
 
     ListadeTeclas[0].onclick = TocaSomPom;
 
-    while () {
+let contador 0;                                                                                                                                
+
+    while (contador < 9) {
         ListadeTeclas[0].onclick = TocaSomPom;
-    
+        contador = contador + 1;
+        console.log(contador);
     }
